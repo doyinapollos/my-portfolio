@@ -9,20 +9,20 @@ body {
 .header {
     width: 100%;
     height: 80px;
-    background-color: blue;
+    background-color: white;
 }
 
 .nav--bar {
     width: 100%;
     height: 80px;
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .logo {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .nav--bar--ul {
@@ -34,41 +34,81 @@ body {
     margin: 20px;
 }
 
+a {
+    color: white;
+}
+
 .main {
     width: 100%;
     height: 80vh;
-    background-color: rgb(42, 99, 165);
+    background-image: url("https://www.cst.cam.ac.uk/sites/www.cst.cam.ac.uk/files/img_1716_3.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+span {
+    margin-left: 10px;
+    padding-top: 10px;
 }
 
 button {
-    width: 150px;
-    height: 30px;
-    background-color: aqua;
+    width: 450px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
     font-weight: bold;
     margin-top: 15px;
 }
 
 .content--div {
+    width: 75%;
+    height: 600px;
+    background-image: url("https://prod-discovery.edx-cdn.org/media/programs/card_images/e0de6882-c5d1-43f3-99e0-17e386489dca-9c3bda2df48f.jpg");
+    background-size: contain;
+    border-radius: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    padding: 50px;
 }
 
-.content-div--img {
-    width: 500px;
-    height: 250px;
+.content--div--b {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-weight: bolder;
+}
+
+.passport {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
 
 .footer {
     width: 100%;
     height: 10vh;
-    background-color: blue;
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 20px;
 }
 
 .footer--div {
