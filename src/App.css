@@ -36,6 +36,7 @@ body {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 .main {
@@ -102,6 +103,303 @@ button {
     border-radius: 50%;
 }
 
+.contact--div {
+    width: 100%;
+    height: 80vh;
+    background-image: url("https://www.cst.cam.ac.uk/sites/www.cst.cam.ac.uk/files/img_1716_3.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact--div--1 {
+    width: 80%;
+    height: 85%;
+    background-image: url("https://www.codebelgium.com/assets/site/postsmedia/best-programming-languages.jpg");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contact--div--2 {
+    width: 80%;
+    height: 85%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact--div--2--a {
+    width: 100%;
+    height: 15%;
+    background-color: blue;
+    border-radius: 10px 10px 0 0;
+}
+
+.contact--div--2--b {
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact--div--2--b--a {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contact--div--2--b--a--a {
+    width: 350px;
+    height: 170px;
+    background-image: url("https://www.codebelgium.com/assets/site/postsmedia/best-programming-languages.jpg");
+    background-size: contain;
+    border-radius: 5px;
+}
+
+.contact--info {
+    width: 250px;
+    height: 40px;
+    background-color: rgb(184, 181, 181);
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.about {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.about--div {
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about--div--1 {
+    width: 43%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.about--div--2 {
+    width: 43%;
+    height: 100%;
+    background-color: #3f5bea;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.about--pic {
+    width: 70%;
+    height: 70%;
+}
+
+.hubby {
+    width: 100%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hubby--div {
+    width: 90%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hubby--div--1 {
+    width: 45%;
+    height: 75%;
+    background-image: url("https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZHJpdmluZ3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.hubby--div--2 {
+    width: 45%;
+    height: 75%;
+    background-image: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F24%2F2021%2F04%2F16%2Ffishing-Vladimir-Smirnov-Contributor-Getty-Images-2000.jpg&q=60");
+    background-size: contain;
+    background-color: rgb(12, 122, 122);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.blog {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.blog--div {
+    width: 90%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px inset red;
+}
+
+.blog--div--1 {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog--div--2 {
+    width: 45%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blog--div--pic {
+    width: 80%;
+    height: 60%;
+}
+
+.blog--pic {
+    width: 100%;
+    height: 100%;
+}
+
+.blog--div--2a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog--div--2b {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog--div--2a--1 {
+    width: 200px;
+    height: 170px;
+    margin: 5px 10px 5px 5px;
+}
+
+.blog--gallery {
+    width: 100%;
+    height: 70%;
+}
+
+.project {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 20px solid black;
+}
+
+.project--div {
+    width: 90%;
+    height: 75vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLNcV63k3ABeTOd8y0MwZKjz_vTJM5CJXN_A&usqp=CAU");
+    background-size: contain;
+}
+
+.project--div--1 {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project--div--2 {
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.project--div--1--a {
+    width: 270px;
+    height: 150px;
+    background-color: blue;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlDDJPBR9V_gTW9eVTWn0BhUUN3wHZAssDxw&usqp=CAU");
+    background-size: contain;
+    margin: 5px 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .footer {
     width: 100%;
     height: 10vh;
@@ -117,4 +415,5 @@ button {
 
 .footer--list {
     margin: 20px;
+    color: white;
 }
