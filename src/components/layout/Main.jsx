@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 function Main() {
   return (
@@ -15,7 +16,7 @@ function Main() {
                 <div className='text'><span className='span'>Web Developer</span></div>
                 <div className='text'><span className='span'>Front end developer</span></div>
                 <div className='text'><span>I write clean, elegant and efficient code</span></div>
-                <button>Contact Me</button>
+                <button><Link to="/contact">Contact Me </Link> </button>
             </div>
             
         </div>
